@@ -1,7 +1,7 @@
 #!/usr/bin/env node 
+require('sugar')();
 var fs = require('fs');
 var tscore = require('./tscore');
-require('sugar');
 var Map = require('./lib/map');
 var SMap = require('./lib/smap')
 var util = require('util');
@@ -409,7 +409,7 @@ function substCall(call, tenv) {
 		new: call.new,
 		variadic: call.variadic,
 		typeParameters: typeParams,
-		parameters: call.parameters.map(substParameter.fill(undefined, tenv)),
+		parameters: call.parameters.map(a => substParameter(a, tenv)),
 		returnType: substType(call.returnType, tenv),
 		meta: call.meta
 	}
@@ -433,8 +433,8 @@ function substType(type, tenv) {
 		return {
 			type: 'object',
 			typeParameters: [],
-			properties: jsonMap(type.properties, substPrty.fill(undefined,tenv)),
-			calls: type.calls.map(substCall.fill(undefined,tenv)),
+			properties: jsonMap(type.properties, e => substPrty(e,tenv)),
+			calls: type.calls.map(a => substCall(a,tenv)),
 			stringIndexer: type.stringIndexer && substType(type.stringIndexer, tenv),
 			numberIndexer: type.numberIndexer && substType(type.numberIndexer, tenv),
 			brand: type.brand,
@@ -446,7 +446,7 @@ function substType(type, tenv) {
 		return {
 			type: 'reference',
 			name: type.name,
-			typeArguments: type.typeArguments.map(substType.fill(undefined,tenv))
+			typeArguments: type.typeArguments.map(a => substType(a,tenv))
 		}
 	default:
 		return type;
@@ -621,7 +621,7 @@ var enum_values = new Map;
 function determineEnums() {
 	for (var qname in typeDecl.enums) {
 		var paths = typeDecl.enums[qname];
-		var values = paths.map(lookupPath.fill(undefined, function(path) {
+		var values = paths.map(a => lookupPath(a, function(path) {
 			console.log("Enum " + qname + " is missing value " + path)
 			return null;
 		}));

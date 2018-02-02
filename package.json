@@ -1,18 +1,13 @@
 {
   "name": "tscheck",
   "version": "0.1.5",
-  "dependencies": {
-    "sugar": "",
-    "commander": "",
-    "esprima": "~1.0.4",
-    "jsnap": "~0.1.4"
-  },
   "files": [
     "lib",
+    "bin",
     "tscheck.js",
     "tscore.js"
   ],
-  "bin": "tscheck.js",
+  "bin": "bin/cli.js",
   "description": "Find bugs in hand-written TypeScript type definitions.",
   "homepage": "http://github.com/asgerf/tscheck",
   "author": {
@@ -22,5 +17,15 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/asgerf/tscheck"
+  },
+  "dependencies": {
+    "sugar": "",
+    "commander": "",
+    "esprima": "~1.0.4",
+    "jsnap": "~0.1.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
   }
 }

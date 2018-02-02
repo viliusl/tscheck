@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4f4d4ec-bcfa-4e61-88cf-af028ec37210" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/tscheck.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/cli.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/tscheck.spec.js" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/testcases/apply-on-callsig.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/apply-on-callsig.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/apply-on-callsig.js" afterPath="$PROJECT_DIR$/test/fixtures/apply-on-callsig.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/apply-on-callsig.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/apply-on-callsig.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/apply-on-inner.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/apply-on-inner.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/apply-on-inner.js" afterPath="$PROJECT_DIR$/test/fixtures/apply-on-inner.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/apply-on-inner.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/apply-on-inner.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/array-create.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/array-create.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/array-create.js" afterPath="$PROJECT_DIR$/test/fixtures/array-create.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/array-create.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/array-create.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/array-filter-def.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/array-filter-def.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/array-filter-def.js" afterPath="$PROJECT_DIR$/test/fixtures/array-filter-def.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/array-filter-def.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/array-filter-def.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/array-map.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/array-map.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/array-map.js" afterPath="$PROJECT_DIR$/test/fixtures/array-map.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/array-map.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/array-map.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/array-pop.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/array-pop.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/array-pop.js" afterPath="$PROJECT_DIR$/test/fixtures/array-pop.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/array-pop.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/array-pop.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/binop.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/binop.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/binop.js" afterPath="$PROJECT_DIR$/test/fixtures/binop.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/binop.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/binop.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/brand.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/brand.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/brand.js" afterPath="$PROJECT_DIR$/test/fixtures/brand.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/brand.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/brand.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/call-indexer.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/call-indexer.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/call-indexer.js" afterPath="$PROJECT_DIR$/test/fixtures/call-indexer.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/call-indexer.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/call-indexer.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/callback.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/callback.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/callback.js" afterPath="$PROJECT_DIR$/test/fixtures/callback.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/callback.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/callback.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-accessor.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/callsig-accessor.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-accessor.js" afterPath="$PROJECT_DIR$/test/fixtures/callsig-accessor.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-accessor.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/callsig-accessor.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-call.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/callsig-call.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-call.js" afterPath="$PROJECT_DIR$/test/fixtures/callsig-call.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-call.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/callsig-call.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-ctor.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/callsig-ctor.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-ctor.js" afterPath="$PROJECT_DIR$/test/fixtures/callsig-ctor.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-ctor.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/callsig-ctor.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-env.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/callsig-env.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-env.js" afterPath="$PROJECT_DIR$/test/fixtures/callsig-env.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-env.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/callsig-env.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-recursive-type.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/callsig-recursive-type.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-recursive-type.js" afterPath="$PROJECT_DIR$/test/fixtures/callsig-recursive-type.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/callsig-recursive-type.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/callsig-recursive-type.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/class-system.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/class-system.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/class-system.js" afterPath="$PROJECT_DIR$/test/fixtures/class-system.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/class-system.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/class-system.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/coerce.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/coerce.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/coerce.js" afterPath="$PROJECT_DIR$/test/fixtures/coerce.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/coerce.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/coerce.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/concat-noarg.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/concat-noarg.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/concat-noarg.js" afterPath="$PROJECT_DIR$/test/fixtures/concat-noarg.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/concat-noarg.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/concat-noarg.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/curry.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/curry.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/curry.js" afterPath="$PROJECT_DIR$/test/fixtures/curry.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/curry.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/curry.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/d3-ordinals.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/d3-ordinals.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/d3-ordinals.js" afterPath="$PROJECT_DIR$/test/fixtures/d3-ordinals.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/d3-ordinals.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/d3-ordinals.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/d3_functor.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/d3_functor.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/d3_functor.js" afterPath="$PROJECT_DIR$/test/fixtures/d3_functor.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/d3_functor.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/d3_functor.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/dynamic-arguments.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/dynamic-arguments.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/dynamic-arguments.js" afterPath="$PROJECT_DIR$/test/fixtures/dynamic-arguments.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/dynamic-arguments.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/dynamic-arguments.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/empty-array.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/empty-array.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/empty-array.js" afterPath="$PROJECT_DIR$/test/fixtures/empty-array.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/empty-array.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/empty-array.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/enum-targ.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/enum-targ.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/enum-targ.js" afterPath="$PROJECT_DIR$/test/fixtures/enum-targ.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/enum-targ.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/enum-targ.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/enum-values.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/enum-values.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/enum-values.js" afterPath="$PROJECT_DIR$/test/fixtures/enum-values.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/enum-values.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/enum-values.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/extend-native.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/extend-native.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/extend-native.js" afterPath="$PROJECT_DIR$/test/fixtures/extend-native.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/extend-native.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/extend-native.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/flash-classes.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/flash-classes.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/flash-classes.js" afterPath="$PROJECT_DIR$/test/fixtures/flash-classes.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/flash-classes.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/flash-classes.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/function.apply.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/function.apply.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/function.apply.js" afterPath="$PROJECT_DIR$/test/fixtures/function.apply.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/function.apply.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/function.apply.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/function.call.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/function.call.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/function.call.js" afterPath="$PROJECT_DIR$/test/fixtures/function.call.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/function.call.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/function.call.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/generic-super.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/generic-super.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/generic-super.js" afterPath="$PROJECT_DIR$/test/fixtures/generic-super.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/generic-super.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/generic-super.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/generics-recursive.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/generics-recursive.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/generics-recursive.js" afterPath="$PROJECT_DIR$/test/fixtures/generics-recursive.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/generics-recursive.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/generics-recursive.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/generics1.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/generics1.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/generics1.js" afterPath="$PROJECT_DIR$/test/fixtures/generics1.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/generics1.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/generics1.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/getter-call.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/getter-call.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/getter-call.js" afterPath="$PROJECT_DIR$/test/fixtures/getter-call.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/getter-call.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/getter-call.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/getter.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/getter.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/getter.js" afterPath="$PROJECT_DIR$/test/fixtures/getter.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/getter.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/getter.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/globalvar.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/globalvar.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/globalvar.js" afterPath="$PROJECT_DIR$/test/fixtures/globalvar.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/globalvar.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/globalvar.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/indexer.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/indexer.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/indexer.js" afterPath="$PROJECT_DIR$/test/fixtures/indexer.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/indexer.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/indexer.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/native-substring.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/native-substring.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/native-substring.js" afterPath="$PROJECT_DIR$/test/fixtures/native-substring.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/native-substring.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/native-substring.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/native-use.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/native-use.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/native-use.js" afterPath="$PROJECT_DIR$/test/fixtures/native-use.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/native-use.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/native-use.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/new-call.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/new-call.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/new-call.js" afterPath="$PROJECT_DIR$/test/fixtures/new-call.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/new-call.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/new-call.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/new-mixed.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/new-mixed.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/new-mixed.js" afterPath="$PROJECT_DIR$/test/fixtures/new-mixed.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/new-mixed.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/new-mixed.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/new-receiver-interface.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/new-receiver-interface.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/new-receiver-interface.js" afterPath="$PROJECT_DIR$/test/fixtures/new-receiver-interface.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/new-receiver-interface.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/new-receiver-interface.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/new-receiver.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/new-receiver.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/new-receiver.js" afterPath="$PROJECT_DIR$/test/fixtures/new-receiver.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/new-receiver.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/new-receiver.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/not-function.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/not-function.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/not-function.js" afterPath="$PROJECT_DIR$/test/fixtures/not-function.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/not-function.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/not-function.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/obj-getter.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/obj-getter.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/obj-getter.js" afterPath="$PROJECT_DIR$/test/fixtures/obj-getter.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/obj-getter.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/obj-getter.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/pixi1.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/pixi1.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/pixi1.js" afterPath="$PROJECT_DIR$/test/fixtures/pixi1.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/pixi1.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/pixi1.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/polycall.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/polycall.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/polycall.js" afterPath="$PROJECT_DIR$/test/fixtures/polycall.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/polycall.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/polycall.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/proto-return.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/proto-return.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/proto-return.js" afterPath="$PROJECT_DIR$/test/fixtures/proto-return.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/proto-return.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/proto-return.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/prototype.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/prototype.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/prototype.js" afterPath="$PROJECT_DIR$/test/fixtures/prototype.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/prototype.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/prototype.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/recursive1.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/recursive1.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/recursive1.js" afterPath="$PROJECT_DIR$/test/fixtures/recursive1.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/recursive1.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/recursive1.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/return-enum.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/return-enum.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/return-enum.js" afterPath="$PROJECT_DIR$/test/fixtures/return-enum.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/return-enum.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/return-enum.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/sealed.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/sealed.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/sealed.js" afterPath="$PROJECT_DIR$/test/fixtures/sealed.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/sealed.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/sealed.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/superclass1.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/superclass1.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/superclass1.js" afterPath="$PROJECT_DIR$/test/fixtures/superclass1.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/superclass1.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/superclass1.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/test1.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/test1.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/test1.js" afterPath="$PROJECT_DIR$/test/fixtures/test1.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/test1.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/test1.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/tricky-calls.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/tricky-calls.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/tricky-calls.js" afterPath="$PROJECT_DIR$/test/fixtures/tricky-calls.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/tricky-calls.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/tricky-calls.jsnap" />
+      <change beforePath="$PROJECT_DIR$/testcases/typed-array.d.ts" afterPath="$PROJECT_DIR$/test/fixtures/typed-array.d.ts" />
+      <change beforePath="$PROJECT_DIR$/testcases/typed-array.js" afterPath="$PROJECT_DIR$/test/fixtures/typed-array.js" />
+      <change beforePath="$PROJECT_DIR$/testcases/typed-array.jsnap" afterPath="$PROJECT_DIR$/test/fixtures/typed-array.jsnap" />
+      <change beforePath="$PROJECT_DIR$/tscheck.js" afterPath="$PROJECT_DIR$/tscheck.js" />
+      <change beforePath="$PROJECT_DIR$/tscore.js" afterPath="$PROJECT_DIR$/tscore.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="tscheck.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/tscheck.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tscore.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tscore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="1229" column="82" lean-forward="false" selection-start-line="1229" selection-start-column="82" selection-end-line="1229" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sugar-es5.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/sugar/dist/sugar-es5.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="6462" column="4" lean-forward="false" selection-start-line="6462" selection-start-column="4" selection-end-line="6462" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sugar.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/sugar/sugar.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="250" column="10" lean-forward="false" selection-start-line="250" selection-start-column="6" selection-end-line="250" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/map.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/smap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="82" column="17" lean-forward="false" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/ts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tscheck.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tscheck.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/lib.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fatalError</find>
+      <find>onLoaded</find>
+      <find>load_handlers</find>
+      <find>prototype</find>
+      <find>cloneProperty</find>
+      <find>cloneCall</find>
+      <find>Array.from</find>
+      <find>libFileTextcoll</find>
+      <find>file</find>
+      <find>require('sugar/polyfills/es6');</find>
+      <find>clone</find>
+      <find>fill</find>
+      <find>console.error</find>
+      <find>tscore</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/bin/cli.js" />
+        <option value="$PROJECT_DIR$/tscore.js" />
+        <option value="$PROJECT_DIR$/test/tscheck.spec.js" />
+        <option value="$PROJECT_DIR$/tscheck.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tscheck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tscheck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tscheck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tscheck" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tscheck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tscheck" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="tscheck.should run a single test-case" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/tscheck.spec.js</test-file>
+      <test-names>
+        <name value="tscheck" />
+        <name value="should run a single test-case" />
+      </test-names>
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.tscheck.should run a single test-case" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="tscheck_should_run_a_single_test-case - 2018.02.02 at 22h 41m 12s.xml">
+      <configuration name="tscheck.should run a single test-case" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="tscheck_should_run_a_single_test-case - 2018.02.02 at 22h 42m 28s.xml">
+      <configuration name="tscheck.should run a single test-case" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="tscheck_should_run_a_single_test-case - 2018.02.02 at 22h 43m 37s.xml">
+      <configuration name="tscheck.should run a single test-case" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="tscheck_should_run_a_single_test-case - 2018.02.02 at 22h 44m 02s.xml">
+      <configuration name="tscheck.should run a single test-case" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="tscheck_should_run_a_single_test-case - 2018.02.02 at 22h 44m 43s.xml">
+      <configuration name="tscheck.should run a single test-case" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="tscheck_should_run_a_single_test-case - 2018.02.02 at 22h 44m 54s.xml">
+      <configuration name="tscheck.should run a single test-case" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="tscheck_should_run_a_single_test-case - 2018.02.02 at 22h 45m 09s.xml">
+      <configuration name="tscheck.should run a single test-case" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="tscheck_should_run_a_single_test-case - 2018.02.02 at 22h 45m 36s.xml">
+      <configuration name="tscheck.should run a single test-case" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="tscheck_should_run_a_single_test-case - 2018.02.02 at 22h 45m 57s.xml">
+      <configuration name="tscheck.should run a single test-case" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="tscheck_should_run_a_single_test-case - 2018.02.02 at 22h 46m 38s.xml">
+      <configuration name="tscheck.should run a single test-case" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18888889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39928058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/tests/test2.d.ts" />
+        <option value="$PROJECT_DIR$/tests/test3.d.ts" />
+        <option value="$PROJECT_DIR$/tests/typeof-member.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/tscheck.js</url>
+          <line>23</line>
+          <properties lambdaOrdinal="-1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="mocha-javascript-test-runner">
+        <watch expression="e.stderr.toString()" language="JavaScript" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>e.stderr.toString()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.stderr</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/run-big-tests">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run-testcases">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/cli.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/smap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="82" column="17" lean-forward="false" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/typescript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sugar/sugar.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="250" column="10" lean-forward="false" selection-start-line="250" selection-start-column="6" selection-end-line="250" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sugar/dist/sugar-es5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="6462" column="4" lean-forward="false" selection-start-line="6462" selection-start-column="4" selection-end-line="6462" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="1229" column="82" lean-forward="false" selection-start-line="1229" selection-start-column="82" selection-end-line="1229" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tscheck.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tscheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
