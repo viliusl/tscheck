@@ -1,5 +1,4 @@
-#!/usr/bin/env node 
-require('sugar')();
+#!/usr/bin/env node
 var fs = require('fs');
 var tscore = require('./tscore');
 var Map = require('./lib/map');

@@ -1,10 +1,19 @@
 const {execSync} = require('child_process');
+const {readdirSync} = require('fs');
 
-describe('tscheck', function() {
+describe('tscheck', function () {
   this.timeout(10000);
+  const testcases = readdirSync('./test/fixtures')
+    .filter(f => f.endsWith('.js'))
+    .map(f => f.replace('.js', ''));
 
-  it('should run a single test-case', () => {
-      execSync('node ./tscheck.js  --verbose ./test/fixtures/apply-on-callsig.js ./test/fixtures/apply-on-callsig.d.ts');
+  testcases.forEach(f => {
+
+    it(`${f}`, () => {
+      execSync(`node ./tscheck.js  --verbose ./test/fixtures/${f}.js ./test/fixtures/${f}.d.ts`);
+    });
+
   });
 
 });
+

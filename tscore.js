@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-require('sugar');
 const TypeScript = require('./lib/ts');
 const fs = require('fs');
 const Map = require('./lib/map');
@@ -1391,7 +1390,7 @@ function outputType(type) {
       type: 'object',
       // typeParameters: type.typeParameters.map(outputTypeParameter),
       properties: type.properties.mapv(outputProperty).json(),
-      calls: type.calls.map(outputCall).compact(),
+      calls: type.calls.map(outputCall).filter(a => a),
       stringIndexer: findIndexer(type.calls, 'string'),
       numberIndexer: findIndexer(type.calls, 'number'),
       brand: type.brand,
@@ -1498,7 +1497,7 @@ function convert(arg) {
   if (typeof arg === 'string') {
     inputs = [{file: '', text: arg}]
   } else if (arg instanceof Array) {
-    inputs = arg.clone();
+    inputs = Array.from(arg);
   } else {
     throw new Error("Illegal argument: " + util.inspect(arg))
   }
