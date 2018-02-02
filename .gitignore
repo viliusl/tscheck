@@ -4,3 +4,4 @@ testcases/*.json
 *.sublime-project
 *.sublime-workspace
 output
+package-lock.json
