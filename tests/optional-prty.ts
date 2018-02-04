@@ -1,4 +1,0 @@
-interface A {
-	x?: number;
-}
-
